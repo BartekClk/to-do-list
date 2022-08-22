@@ -1,0 +1,50 @@
+* {
+    transition-duration: 200ms;
+}
+
+td {
+    position: relative;
+    padding-left: 20px !important;
+}
+
+th {
+    width: 30px;
+    border-right: 2px rgba(0, 0, 0, 0.5) solid !important;
+}
+
+.trash {
+    position: absolute;
+    right: 20px;
+    opacity: 0.8;
+    width: 25px;
+}
+
+.trash:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.done {
+    position: absolute;
+    right: 60px;
+    opacity: 0.8;
+    width: 25px;
+}
+
+.done:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.clear {
+    position: absolute;
+    right: 20px;
+    opacity: 0.8;
+}
+
+.clear:hover {
+    opacity: 1;
+}
+p{
+    width: 80%;
+}
